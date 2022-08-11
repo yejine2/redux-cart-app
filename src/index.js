@@ -11,11 +11,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(
-//   // 리덕스 전역 설정
-//   <Provider store={store}>
-//     <App />
-//   </Provider>
-// );
