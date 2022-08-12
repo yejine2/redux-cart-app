@@ -15,7 +15,7 @@ const cartSlice = createSlice({
       // item이 이미 배열에 존재하는지 확인, 만약 없다면 추가하기
       if (!existingItem) {
         state.items.push({
-          itemId: newItem.id,
+          id: newItem.id,
           name: newItem.title,
           price: newItem.price,
           quantity: 1,
